@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Command line suite" duration-ms="75219" started-at="2018-10-30T18:25:09Z" finished-at="2018-10-30T18:26:24Z">
+    <groups>
+    </groups>
+    <test name="Command line test" duration-ms="75219" started-at="2018-10-30T18:25:09Z" finished-at="2018-10-30T18:26:24Z">
+      <class name="com.radwin.test.RadwinTest">
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.radwin.test.RadwinTest@15975490]" name="setup" is-config="true" duration-ms="27798" started-at="2018-10-30T18:25:09Z" finished-at="2018-10-30T18:25:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:com.radwin.test.RadwinTest@15975490]" name="Test1" duration-ms="13377" started-at="2018-10-30T18:25:37Z" finished-at="2018-10-30T18:25:50Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:com.radwin.test.RadwinTest@15975490]" name="Test2" duration-ms="15174" started-at="2018-10-30T18:25:50Z" finished-at="2018-10-30T18:26:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="Test3(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.radwin.test.RadwinTest@15975490]" name="Test3" duration-ms="17794" started-at="2018-10-30T18:26:05Z" data-provider="getData" finished-at="2018-10-30T18:26:23Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Alex]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Palchitsky]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[alex.palchisky@gmail.com]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0547613154]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Maagal Sagur]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test3 -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.radwin.test.RadwinTest@15975490]" name="tearDown" is-config="true" duration-ms="987" started-at="2018-10-30T18:26:23Z" finished-at="2018-10-30T18:26:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.radwin.test.RadwinTest -->
+    </test> <!-- Command line test -->
+  </suite> <!-- Command line suite -->
+</testng-results>
